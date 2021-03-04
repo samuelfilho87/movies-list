@@ -41,7 +41,7 @@ export const ToolBar = styled.div`
   button {
     height: 100%;
     font-weight: 900;
-    padding: 0 0 0 0;
+    padding: 8px;
     cursor: pointer;
     
     display: flex;
@@ -56,6 +56,11 @@ export const ToolBar = styled.div`
 
   form {
     display: flex;
+
+    input {
+      height: 100%;
+      padding: 0 8px;
+    }
 
     button {
       margin-left: 4px;
@@ -99,8 +104,14 @@ export const ContainerForm = styled.div`
       letter-spacing: 0.8px;
     }
 
+    input {
+      height: 34px;
+      padding: 0 8px;
+    }
+
     button {
       margin: 16px 0 0 8px;
+      padding: 8px 16px;
       cursor: pointer;
     }
   }
